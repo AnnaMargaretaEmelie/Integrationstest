@@ -13,11 +13,3 @@ export const getData = async (searchText: string): Promise<IMovie[]> => {
     return [];
   }
 };
-
-// .get<IOmdbResponse>("http://omdbapi.com/?apikey=416ed51a&s=" + searchText)
-//     .then((data) => {
-//       return data.data.Search;
-//     })
-//     .catch(() => {
-//       return [];
-//     });
