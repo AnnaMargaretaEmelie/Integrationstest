@@ -24,4 +24,5 @@ export function displayNoResult(container: HTMLDivElement) {
     container.innerHTML = "";
     const p = document.createElement("p");
     p.textContent = "Inga sökresultat att visa";
+    container.appendChild(p);
 };
